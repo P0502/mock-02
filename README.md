@@ -6,9 +6,8 @@
 ## 環境構築の手順
 ### 1. リポジトリをクローンする
 #### git clone git@github.com:P0502/mock-02.git
-
 ## ダミーデータの作成
-#### 
+#### php artisan db:seed
 ## テストケース実行
 #### php artisan test
 
