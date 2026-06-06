@@ -10,7 +10,8 @@
 #### php artisan db:seed
 ## テストケース実行
 #### php artisan test
-
+## メール認証機能について
+#### 
 ## ER図
 <img width="745" height="784" alt="スクリーンショット 2026-05-17 054452" src="https://github.com/user-attachments/assets/b0f6ba3d-a334-4682-9deb-1a3d303a7e99" />
 
