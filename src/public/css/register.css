@@ -1,0 +1,88 @@
+.register-user {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.register-user-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.register-user-form {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.register-user-group {
+    margin-bottom: 35px;
+}
+
+.register-user-name-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 520px;
+}
+
+.register-user-email-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 399px;
+}
+
+.register-user-password-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 450px;
+}
+
+.register-user-password_confirmation-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 399px;
+}
+
+.register-user-name-input,
+.register-user-email-input,
+.register-user-password-input,
+.register-user-password_confirmation-input {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 600px;
+    height: 50px;
+    margin-left: 160px;
+    margin-top: 5px;
+}
+
+.register-user-error {
+    color: #ff0000;
+}
+
+.register-user-button {
+    margin-top: 100px;
+}
+
+.register-user-button-submit {
+    background-color: #000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 27px;
+}
+
+.login-user-link {
+    color: rgb(0, 133, 221);
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    margin-left: 390px;
+    margin-top: 30px;
+}

@@ -1,0 +1,168 @@
+.admin-request-attendance-list-content {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.admin-request-attendance-list-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 23px;
+    margin-right: 662px;
+    color: #000;
+    display: inline-block;
+}
+
+.admin-attendance-list-links {
+    border-bottom: solid 1px #000;
+    width: 852px;
+    display: flex;
+    margin-left: 332px;
+    margin-top: 20px;
+}
+
+.admin-request-attendance-link {
+    margin-left: 62px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.admin-approve-attendance-link {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.admin-request-attendance-link-inner,
+.admin-approve-attendance-link-inner {
+    font-size: 17px;
+    color: #000;
+    text-decoration: none;
+}
+
+.active .admin-request-attendance-link-inner,
+.active .admin-approve-attendance-link-inner {
+    font-weight: bold;
+}
+
+.admin-request-attendance-list-table {
+    margin-top: 30px;
+    margin-left: 332px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 9px;
+    overflow: hidden;
+    width: 852px;
+    table-layout: fixed;
+}
+
+.admin-request-attendance-list-table th {
+    border-bottom: #dadada solid 3px;
+}
+
+.admin-request-attendance-list-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.admin-request-attendance-list-table-header-row,
+.admin-request-attendance-list-table-row {
+    background: #fff;
+    border-bottom: #dadada solid 2px;
+}
+
+.admin-request-attendance-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.admin-request-attendance-list-header-status-item,
+.admin-request-attendance-list-header-name-item,
+.admin-request-attendance-list-header-date-item,
+.admin-request-attendance-list-header-reason-item,
+.admin-request-attendance-list-header-request-date-item,
+.admin-request-attendance-list-header-detail-item {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.admin-request-attendance-list-header-status {
+    padding-left: 8px;
+}
+
+.admin-request-attendance-list-header-name {
+    padding-right: 35px;
+}
+
+.admin-request-attendance-list-header-date {
+    padding-right: 55px;
+}
+
+.admin-request-attendance-list-header-reason {
+    padding-right: 40px;
+}
+
+.admin-request-attendance-list-header-request-date {
+    padding-right: 35px;
+}
+
+.admin-request-attendance-list-header-detail {
+    padding-right: 40px;
+}
+
+.admin-request-attendance-list-status-item,
+.admin-request-attendance-list-name-item,
+.admin-request-attendance-list-date-item, 
+.admin-request-attendance-list-reason-item,
+.admin-request-attendance-list-request-date-item,
+.admin-request-attendance-list-detail-item {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.admin-request-attendance-list-status {
+    padding-left: 38px;
+}
+
+.admin-request-attendance-list-name {
+    padding-right: 5px;
+}
+
+.admin-request-attendance-list-date {
+    padding-right: 35px;
+}
+
+.admin-request-attendance-list-reason {
+    padding-right: 20px;
+}
+
+.admin-request-attendance-list-request-date {
+    padding-right: 14px;
+}
+
+.admin-request-attendance-list-detail {
+    padding-right: 38px;
+}
+
+.admin-request-attendance-list-header-status-label,
+.admin-request-attendance-list-header-name-label,
+.admin-request-attendance-list-header-date-label,
+.admin-request-attendance-list-header-reason-label,
+.admin-request-attendance-list-header-request-date-label,
+.admin-request-attendance-list-header-detail-label,
+.admin-request-attendance-list-status-label,
+.admin-request-attendance-list-name-label,
+.admin-request-attendance-list-date-label,
+.admin-request-attendance-list-reason-label,
+.admin-request-attendance-list-request-date-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+}
+
+.admin-request-attendance-list-detail-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}

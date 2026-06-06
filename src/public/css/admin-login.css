@@ -1,0 +1,60 @@
+.login-admin {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.login-admin-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.login-admin-group {
+    margin-bottom: 60px;
+}
+
+.login-admin-email-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 294px;
+}
+
+.login-admin-error {
+    color: #ff0000;
+    text-align: center;
+}
+
+.login-admin-password-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 295px;
+}
+
+.login-admin-email-input,
+.login-admin-password-input {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 600px;
+    height: 60px;
+    margin-left: 295px;
+    margin-top: 5px;
+}
+
+.login-admin-button {
+    margin-top: 100px;
+    margin-left: 295px;
+}
+
+.login-admin-button-submit {
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+.verify-email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.verify-email-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.verify-email-message {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.verify-email-button {
+    margin-top: 30px;
+}
+
+.verify-email-button-submit {
+    border-radius: 8px;
+    border: solid 1px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 210px;
+    height: 60px;
+    background-color: rgb(221, 221, 221);
+}
+
+.verify-email-resend-button {
+    margin-top: 50px;
+    margin-left: 17px;
+}
+
+.verify-email-resend-button-submit {
+    border: none;
+    background: none;
+    color: rgb(0, 133, 221);
+    font-size: 16px;
+}

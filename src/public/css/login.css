@@ -1,0 +1,73 @@
+.login-user {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.login-user-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.login-user-form {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.login-user-group {
+    margin-bottom: 60px;
+}
+
+.login-user-email-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 425px;
+}
+
+.login-user-password-label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 473px;
+}
+
+.login-user-email-input,
+.login-user-password-input {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 600px;
+    height: 60px;
+    margin-left: 145px;
+    margin-top: 5px;
+}
+
+.login-user-error {
+    color: #ff0000;
+}
+
+.login-user-button {
+    margin-top: 100px;
+}
+
+.login-user-button-submit {
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.register-user-link {
+    color: rgb(0, 133, 221);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 367px;
+}

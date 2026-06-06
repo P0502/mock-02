@@ -1,0 +1,221 @@
+.admin-detail-attendance-content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.admin-detail-attendance-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 20px;
+    margin-right: 650px;
+    color: #000;
+    display: inline-block;
+}
+
+.admin-detail-attendance-table {
+    margin-left: 339px;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 9px;
+    overflow: hidden;
+    width: 850px;
+    table-layout: fixed;
+}
+
+.admin-detail-attendance-table th {
+    border-bottom: #dadada solid 2px;
+}
+
+.admin-detail-attendance-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.admin-detail-attendance-table tr:last-child th,
+.admin-detail-attendance-table tr:last-child td {
+    border-bottom: none;
+}
+
+.admin-detail-attendance-table-row {
+    background: #fff;
+}
+
+.admin-detail-attendance-header-user-name-item,
+.admin-detail-attendance-header-date-item,
+.admin-detail-attendance-header-start_time-end_time-item,
+.admin-detail-attendance-header-break-time-item,
+.admin-detail-attendance-header-break-time-2-item,
+.admin-detail-attendance-header-remark-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.admin-detail-attendance-user-name-item,
+.admin-detail-attendance-date-item,
+.admin-detail-attendance-start_time-end_time-item,
+.admin-detail-attendance-break-time-item,
+.admin-detail-attendance-break-time-2-item {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 63%;
+}
+
+.admin-detail-attendance-remark-item {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 145px;
+}
+
+.admin-detail-attendance-header-user-name,
+.admin-detail-attendance-header-date,
+.admin-detail-attendance-header-break-time,
+.admin-detail-attendance-header-remark{
+    margin-right: 150px;
+}
+
+.admin-detail-attendance-header-start_time-end_time {
+    margin-right: 95px;
+}
+
+.admin-detail-attendance-header-break-time-2 {
+    margin-right: 140px;
+}
+
+.admin-detail-attendance-user-name {
+    margin-right: 400px;
+}
+
+.admin-detail-attendance-date {
+    margin-left: 10px;
+}
+
+.admin-detail-attendance-group {
+    margin-right: 225px;
+}
+
+.admin-detail-attendance-remark {
+    margin-right: 110px;
+}
+
+.admin-detail-attendance-header-user-name-label,
+.admin-detail-attendance-header-date-label,
+.admin-detail-attendance-header-start_time-end_time-label,
+.admin-detail-attendance-header-break-time-label,
+.admin-detail-attendance-header-break-time-2-label,
+.admin-detail-attendance-header-remark-label {
+    font-size: 17px;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+}
+
+.admin-detail-attendance-user-name-label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+}
+
+.admin-detail-attendance-date-year-label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    padding-right: 130px;
+}
+
+.admin-detail-attendance-month-label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    padding-right: 230px;
+}
+
+.admin-detail-attendance-start_time-input,
+.admin-detail-attendance-end_time-input,
+.admin-detail-attendance-break-start_time-input,
+.admin-detail-attendance-break-end_time-input,
+.admin-detail-attendance-break-start_time-2-input,
+.admin-detail-attendance-break-end_time-2-input {
+    font-size: 17px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: #dadada solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    margin-right: 3px;
+}
+
+.admin-detail-attendance-remark-input {
+    font-size: 17px;
+    font-weight: bold;
+    width: 305px;
+    height: 60px;
+    border: #dadada solid 1px;
+    border-radius: 5px;
+}
+
+.admin-detail-attendance-error {
+    color: #ff0000;
+    font-size: 13px;
+}
+
+.admin-request-attendance-start_time-end_time-display,
+.admin-request-attendance-break-time-display,
+.admin-request-attendance-break2-time-display {
+    margin-right: 220px;
+}
+
+.admin-request-attendance-remark-display {
+    margin-right: 250px;
+}
+
+.admin-request-attendance-start_time-label,
+.admin-request-attendance-end_time-label,
+.admin-request-attendance-break1_start_time-label,
+.admin-request-attendance-break1_end_time-label,
+.admin-request-attendance-break2_start_time-label,
+.admin-request-attendance-break2_end_time-label,
+.admin-request-attendance-remark-label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+}
+
+.admin-detail-attendance-hyphen,
+.admin-request-attendance-hyphen {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    padding: 35px 40px;
+}
+
+.admin-request-attendance-hyphen {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    padding: 60px 60px;
+}
+
+.admin-update-attendance-button {
+    margin-left: 766px;
+    margin-top: 30px;
+}
+
+.admin-detail-attendance-request-message {
+    color: #ff7c7c;
+    margin-right: 130px;
+}
+
+.admin-update-attendance-button-submit {
+    color: #fff;
+    background-color: #000;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}

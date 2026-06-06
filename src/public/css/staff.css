@@ -1,0 +1,189 @@
+.staff-attendance-list {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.staff-attendance-list-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 20px;
+    margin-right: 490px;
+    color: #000;
+    display: inline-block;
+}
+
+.month-navigation {
+    background: #fff;
+    width: 840px;
+    margin-left: 345px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.month-arrow-navigation-link {
+    font-size: 25px;
+    font-weight: bold;
+    color: #acacac;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+    margin-bottom: 3px;
+}
+
+.month-navigation-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.month-navigation-current {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 263px 263px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.staff-attendance-list-table {
+    margin-left: 345px;
+    margin-top: 50px;
+    width: 840px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.staff-attendance-list-table th {
+    border-bottom: #dadada solid 3px;
+}
+
+.staff-attendance-list-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.staff-attendance-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.staff-attendance-list-header-row,
+.staff-attendance-list-row {
+    background: #fff;
+}
+
+.staff-attendance-list-header-date-item,
+.staff-attendance-list-header-start_time-item,
+.staff-attendance-list-header-end_time-item,
+.staff-attendance-list-header-break_time-item,
+.staff-attendance-list-header-total_hours-item,
+.staff-attendance-list-header-detail-item,
+.staff-attendance-list-date-item,
+.staff-attendance-list-start_time-item,
+.staff-attendance-list-end_time-item,
+.staff-attendance-list-break_time-item,
+.staff-attendance-list-total_hours-item,
+.staff-attendance-list-detail-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.staff-attendance-list-header-date {
+    padding-left: 3px;
+}
+
+.staff-attendance-list-header-start_time {
+    padding-left: 30px;
+}
+
+.staff-attendance-list-header-end_time {
+    padding-left: 40px;
+}
+
+.staff-attendance-list-header-break_time {
+    padding-left: 10px;
+}
+
+.staff-attendance-list-header-total_hours {
+    padding-right: 20px;
+}
+
+.staff-attendance-list-header-detail {
+    padding-right: 70px;
+}
+
+.staff-attendance-list-date {
+    padding-left: 52px;
+}
+
+.staff-attendance-list-start_time {
+    padding-left: 38px;
+}
+
+.staff-attendance-list-end_time {
+    padding-left: 38px;
+}
+
+.staff-attendance-list-break_time {
+    padding-left: 10px;
+}
+
+.staff-attendance-list-total_hours {
+    padding-right: 17px;
+}
+
+.staff-attendance-list-detail-link {
+    padding-right: 70px;
+}
+
+.staff-attendance-list-header-date-label,
+.staff-attendance-list-header-start_time-label,
+.staff-attendance-list-header-end_time-label,
+.staff-attendance-list-header-break_time-label,
+.staff-attendance-list-header-total_hours-label,
+.staff-attendance-list-header-detail-label,
+.staff-attendance-list-date-label,
+.staff-attendance-list-start_time-label,
+.staff-attendance-list-end_time-label,
+.staff-attendance-list-break_time-label,
+.staff-attendance-list-total_hours-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+}
+
+.staff-attendance-list-detail-link-inner {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+
+.CSV-download-button {
+    margin-top: 45px;
+    margin-left: 765px;
+}
+
+.CSV-download-button-submit {
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    letter-spacing: 0.15em;
+}

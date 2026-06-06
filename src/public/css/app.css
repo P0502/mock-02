@@ -1,0 +1,43 @@
+.header {
+    background-color: #000;
+    height: 85px;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+}
+
+.header-logo {
+    margin: 0;
+}
+
+.header-logo-image {
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 40px;
+    margin-left: 990px;
+    margin-top: -40px;
+    align-items: center;
+}
+
+.attendance-month-list-inner,
+.attendance-link-inner,
+.attendance-list-link-inner,
+.request-list-link-inner {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logout-button-submit {
+    border: none;
+    background: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}

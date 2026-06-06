@@ -1,0 +1,220 @@
+.request-attendance-content {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.request-attendance-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 23px;
+    margin-right: 662px;
+    color: #000;
+    display: inline-block;
+}
+
+.attendance-list-links {
+    border-bottom: solid 1px #000;
+    width: 852px;
+    display: flex;
+    margin-left: 332px;
+    margin-top: 20px;
+}
+
+.request-attendance-link {
+    margin-left: 62px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.request-attendance-link-inner {
+    font-size: 17px;
+    color: #000;
+    text-decoration: none;
+}
+
+.approve-attendance-link {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.approve-attendance-link-inner {
+    font-size: 17px;
+    color: #000;
+    text-decoration: none;
+}
+
+.active .request-attendance-link-inner,
+.active .approve-attendance-link-inner {
+    font-weight: bold;
+}
+
+.request-attendance-table {
+    margin-top: 30px;
+    margin-left: 332px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 9px;
+    overflow: hidden;
+    width: 852px;
+    table-layout: fixed;
+}
+
+.request-attendance-table th {
+    border-bottom: #dadada solid 3px;
+}
+
+.request-attendance-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.request-attendance-table-row-header,
+.request-attendance-table-row {
+    background: #fff;
+    border-bottom: #dadada solid 2px;
+}
+
+.request-attendance-status-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+}
+
+.request-attendance-status {
+    padding-left: 20px;
+}
+
+.request-attendance-status-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    text-align : center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.request-attendance-name-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-right: 35px;
+}
+
+.request-attendance-name {
+    padding-right: 3px;
+}
+
+.request-attendance-name-label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #7c7c7c;
+}
+
+.request-attendance-date-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 39px;
+}
+
+.request-attendance-date {
+    padding-right: 8px;
+}
+
+.request-attendance-date-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    text-align: center;
+    letter-spacing: 0.10em;
+}
+
+.request-attendance-reason-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 45px;
+}
+
+.request-attendance-reason {
+    padding-right: 25px;
+}
+
+.request-attendance-reason-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+.request-attendance-request-date-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 55px;
+}
+
+.request-attendance-request-date {
+    padding-right: 28px;
+}
+
+.request-attendance-request-date-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    text-align: center;
+    letter-spacing: 0.10em;
+}
+
+.request-attendance-detail-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 100px;
+}
+
+.request-attendance-detail-link {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 100px;
+}
+
+.request-attendance-detail-link-inner {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}

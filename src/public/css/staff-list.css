@@ -1,0 +1,103 @@
+.staff-list {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 28px;
+}
+
+.staff-list-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 15px;
+    margin-right: 662px;
+    display: inline-block;
+    color: #000;
+}
+
+.staff-list-table {
+    margin-left: 310px;
+    margin-top: 60px;
+    width: 835px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 9px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.staff-list-table th {
+    border-bottom: #dadada solid 3px;
+}
+
+.staff-list-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.staff-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.staff-list-table-header-row,
+.staff-list-table-row {
+    background: #fff;
+}
+
+.staff-list-header-name-item,
+.staff-list-header-email-item,
+.staff-list-header-attendance-detail-item,
+.staff-list-name-item,
+.staff-list-email-item,
+.staff-list-attendance-detail-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.staff-list-header-name {
+    padding-left: 140px;
+}
+
+.staff-list-header-email {
+    padding-left: 30px;
+}
+
+.staff-list-header-attendance-detail {
+    padding-right: 35px;
+}
+
+.staff-list-header-name-label,
+.staff-list-header-email-label,
+.staff-list-header-attendance-detail-label,
+.staff-list-name-label,
+.staff-list-email-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+}
+
+.staff-list-email-label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+}
+
+.staff-list-name {
+    padding-left: 140px;
+}
+
+.staff-list-email {
+    padding-left: 20px;
+}
+
+.staff-list-attendance-detail-link {
+    padding-right: 35px;
+}
+
+.staff-list-attendance-detail-link-inner {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}

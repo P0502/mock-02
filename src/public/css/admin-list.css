@@ -1,0 +1,181 @@
+.admin-attendance-list {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.admin-attendance-list-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 23px;
+    margin-right: 495px;
+    color: #000;
+}
+
+.day-navigation {
+    background: #fff;
+    width: 840px;
+    margin-left: 345px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.day-arrow-navigation-link {
+    font-size: 25px;
+    font-weight: bold;
+    color: #acacac;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+    margin-bottom: 3px;
+}
+
+.day-navigation-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.date-navigation-current {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 255px 255px;
+    margin-right: 16px;
+    margin-bottom: 15px;
+}
+
+.admin-attendance-list-table {
+    margin-left: 345px;
+    margin-top: 60px;
+    width: 840px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.admin-attendance-list-table th {
+    border-bottom: #dadada solid 3px;
+}
+
+.admin-attendance-list-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.admin-attendance-list-header {
+    background: #fff;
+}
+
+.admin-attendance-list-header-name-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+}
+
+.admin-attendance-list-header-start_time-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-left: 95px;
+}
+
+.admin-attendance-list-header-end_time-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-left: 35px;
+}
+
+.admin-attendance-list-header-break_time-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-right: 26px;
+}
+
+.admin-attendance-list-header-total_hours-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.admin-attendance-list-header-detail-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-right: 70px;
+}
+
+.admin-attendance-list-row {
+    background: #fff;
+    border-radius: 19px;
+    border-bottom: #dadada solid 2px;
+}
+
+.admin-attendance-list-user-name-label,
+.admin-attendance-list-start_time-label,
+.admin-attendance-list-end_time-label,
+.admin-attendance-list-break_time-label,
+.admin-attendance-list-total_hours-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+}
+
+.admin-attendance-list-user-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.admin-attendance-list-start_time {
+    padding-left: 87px;
+}
+
+.admin-attendance-list-end_time {
+    padding-left: 23px;
+}
+
+.admin-attendance-list-break_time {
+    padding-right: 16px;
+}
+
+.admin-attendance-list-total_hours {
+    padding-right: 40px;
+}
+
+.admin-attendance-detail-link {
+    padding-right: 62px;
+}
+
+.admin-attendance-detail-link-inner {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    z-index: 22;
+}

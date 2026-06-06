@@ -1,0 +1,176 @@
+.attendance-list {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.attendance-list-label {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: solid 9px;
+    padding-left: 20px;
+    margin-right: 659px;
+    color: #000;
+    display: inline-block;
+}
+
+.month-navigation {
+    background: #fff;
+    width: 840px;
+    margin-left: 345px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.month-navigation-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.month-arrow-navigation-link {
+    font-size: 25px;
+    font-weight: bold;
+    color: #acacac;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+    margin-bottom: 3px;
+}
+
+.month-navigation-current {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 263px 263px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.attendance-list-table {
+    margin-left: 345px;
+    margin-top: 60px;
+    width: 840px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.attendance-list-table th {
+    border-bottom: #dadada solid 3px;
+}
+
+.attendance-list-table td {
+    border-bottom: #dadada solid 2px;
+}
+
+.attendance-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.attendance-list-header {
+    background: #fff;
+}
+
+.attendance-list-header-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+}
+
+.attendance-list-header-start_time-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+.attendance-list-header-date-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-right: 45px;
+}
+
+.attendance-list-header-detail-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.attendance-list-row {
+    background: #fff;
+    border-radius: 19px;
+    border-bottom: #dadada solid 2px;
+}
+
+.attendance-list-date {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.attendance-list-start_time {
+    font-size: 15px;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    color: #7c7c7c;
+}
+
+.attendance-list-end_time {
+    font-size: 15px;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    color: #7c7c7c;
+}
+
+.attendance-list-break_time {
+    font-size: 15px;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    color: #7c7c7c;
+}
+
+.attendance-list-total_hours {
+    font-size: 15px;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.15em;
+    color: #7c7c7c;
+}
+
+.attendance-detail-link {
+    padding-right: 30px;
+}
+
+.attendance-detail-link-inner {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
