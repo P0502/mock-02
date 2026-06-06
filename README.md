@@ -7,6 +7,8 @@
 ### 1. リポジトリをクローンする
 #### git clone git@github.com:P0502/mock-02.git
 
+## ダミーデータの作成
+#### 
 ## テストケース実行
 #### php artisan test
 
