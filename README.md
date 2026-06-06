@@ -7,7 +7,7 @@
 ### 1. リポジトリをクローンする
 #### git clone git@github.com:P0502/mock-02.git
 
-### テストケース実行
+## テストケース実行
 #### php artisan test
 
 ## ER図
