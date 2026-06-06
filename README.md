@@ -12,6 +12,14 @@
 
 
 ## テーブル仕様書
+<img width="758" height="282" alt="スクリーンショット 2026-06-07 042357" src="https://github.com/user-attachments/assets/8f60ed23-b70d-45c7-92ec-62ef8b4ed260" />
+<br><br>
+<img width="759" height="215" alt="スクリーンショット 2026-06-07 042515" src="https://github.com/user-attachments/assets/912cadf7-0514-4b4e-86b4-2861d9dc6865" />
+<br><br>
+<img width="760" height="173" alt="スクリーンショット 2026-06-07 042636" src="https://github.com/user-attachments/assets/2068952e-ac41-4431-bad6-0c12b3b4c6a1" />
+<br><br>
+<img width="759" height="353" alt="スクリーンショット 2026-06-07 042800" src="https://github.com/user-attachments/assets/54fd8867-7be9-4202-b8d1-c594759c9ebd" />
+
 
 ## 使用技術(実行環境)
 #### ・PHP:8.1.34
