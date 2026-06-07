@@ -13,7 +13,7 @@
 #### (2) composer install(PHPコンテナ内)
 ### 4. .envファイルの作成
 #### cp .env.example .env
-#### ※PHPコンテナ内で.env.exampleファイルをコピーして、ファイル名を.envに変更する
+#### ※PHPコンテナ内で.env.exampleファイルをコピーして、ファイル名を.envに変更して作成する
 ### 5.
 #### 
 ## シーディング実行
