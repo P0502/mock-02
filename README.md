@@ -4,12 +4,24 @@
 ## アプリケーションの詳細
 
 ## 環境構築の手順
-### 1. リポジトリをクローンする
-#### git clone git@github.com:P0502/mock-02.git
-## ダミーデータの作成
+### 1.リポジトリをクローンする
+#### $ git clone git@github.com:P0502/mock-02.git
+### 2.環境構築をする(Dockerコンテナ作成)
+#### $ docker-compose up -d --build
+### 3.Laravel のパッケージのインストール
+#### (1) $ docker-compose exec php bash(PHPコンテナに入る)
+#### (2) composer install(PHPコンテナ内)
+### 4. .envファイルの作成
+#### cp .env.example .env
+#### ※PHPコンテナ内で.env.exampleファイルをコピーして、ファイル名を.envに変更する
+### 5.
+#### 
+## シーディング実行
 #### php artisan db:seed
+#### ※PHPコンテナ内で実行する
 ## テストケース実行
 #### php artisan test
+#### ※PHPコンテナ内で実行する
 ## メール認証機能について
 #### 
 ## ER図
