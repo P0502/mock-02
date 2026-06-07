@@ -81,7 +81,7 @@
 <img width="759" height="353" alt="スクリーンショット 2026-06-07 042800" src="https://github.com/user-attachments/assets/54fd8867-7be9-4202-b8d1-c594759c9ebd" />
 <br><br>
 
-### ※attendances(勤怠)データが空でも申請できるように、attendance_idをnullableに設定しています。
+### ※attendances(勤怠テーブル)のデータが空でも申請できるように、attendance_correct_requests(勤怠申請テーブル)のattendance_idをnullableに設定しています。
 
 
 ## 使用技術とバージョン(実行環境)
