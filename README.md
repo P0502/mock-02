@@ -81,13 +81,13 @@
 <img width="759" height="353" alt="スクリーンショット 2026-06-07 042800" src="https://github.com/user-attachments/assets/54fd8867-7be9-4202-b8d1-c594759c9ebd" />
 
 
-## 使用技術(実行環境)
-#### ・PHP:8.1.34
-#### ・Laravel:8.83.29
-#### ・nginx:1.21.1
-#### ・mysql:11.8.3
-#### ・mailhog:1.0.1
-#### ・phpmyadmin:8080:80
+## 使用技術とバージョン(実行環境)
+#### ・PHP:v8.1.34
+#### ・Laravel:v8.83.29
+#### ・nginx:v1.21.1
+#### ・mysql:v8.0.26
+#### ・mailhog:v1.0.1
+#### ・phpmyadmin:v5.2.3
 
 ## URL
 #### ・会員登録画面: http://localhost/register
