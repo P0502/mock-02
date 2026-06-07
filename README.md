@@ -8,18 +8,22 @@
 #### $ git clone git@github.com:P0502/mock-02.git
 ### 2.環境構築をする(Dockerコンテナ作成)
 #### $ docker-compose up -d --build
-### 3.Laravel のパッケージのインストール
+### 3.Laravelのパッケージのインストール
 #### (1) $ docker-compose exec php bash(PHPコンテナに入る)
 #### (2) composer install(PHPコンテナ内で実行する)
 ### 4. .envファイルの作成
 #### cp .env.example .env
 #### ※PHPコンテナ内で.env.exampleファイルをコピーして、ファイル名を.envに変更して作成する
-### 5.
-#### 
-## シーディング実行
-#### php artisan db:seed
+### 5.マイグレーションを実行する
+#### php artisan migrate
 #### ※PHPコンテナ内で実行する
-## テストケース実行
+### 6.シーディングを実行する
+#### php artisan db:seed
+#### ※シーディングを実行すると、users(一般ユーザー)→attendances(勤怠)→breaks(休憩時間)の順にダミーデータが作成されます。
+#### ※PHPコンテナ内で実行する
+### 7.キーを生成する
+#### php artisan key:generate
+### 8.テストケースを実行する
 #### php artisan test
 #### ※PHPコンテナ内で実行する
 ## 環境構築時の注意点(メール認証エラーの対策)
