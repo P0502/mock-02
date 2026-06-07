@@ -10,7 +10,7 @@
 #### $ docker-compose up -d --build
 ### 3.Laravel のパッケージのインストール
 #### (1) $ docker-compose exec php bash(PHPコンテナに入る)
-#### (2) composer install(PHPコンテナ内)
+#### (2) composer install(PHPコンテナ内で実行する)
 ### 4. .envファイルの作成
 #### cp .env.example .env
 #### ※PHPコンテナ内で.env.exampleファイルをコピーして、ファイル名を.envに変更して作成する
